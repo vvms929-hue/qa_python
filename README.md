@@ -1,1 +1,23 @@
 # qa_python
+Юнит-тесты для класса BooksCollector
+Реализовал тесты:
+
+test_add_new_book_add_two_books можно добавить две разные книги
+
+test_add_new_book_name_length_boundary_values тут граничные значения длины названия: книга из 1 и 40 символов добавляется, из 0 и 41 символа не добавляется
+
+test_set_book_genre_genre_from_list_genre_set в книге устанавливается каждый жанр из списка доступных жанров
+
+test_get_book_genre_new_book_has_no_genre у только что добавленной книги нет жанра
+
+test_get_books_with_specific_genre_returns_only_books_of_this_genre возвращаются только книги указанного жанра
+
+test_get_books_genre_returns_dict_with_book_and_genre возвращается словарь с книгой и её жанром
+
+test_get_books_for_children_genre_with_age_rating_book_not_in_list книги жанров с возрастным рейтингом не попадают в список для детей
+
+test_add_book_in_favorites_book_from_collection_added книга из коллекции добавляется в избранное
+
+test_delete_book_from_favorites_book_deleted книга удаляется из избранного
+
+test_get_list_of_favorites_books_returns_all_favorites возвращается список всех избранных книг
