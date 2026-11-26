@@ -14,6 +14,8 @@ test_get_books_with_specific_genre_returns_only_books_of_this_genre возвра
 
 test_get_books_genre_returns_dict_with_book_and_genre возвращается словарь с книгой и её жанром
 
+test_get_books_for_children_genre_without_age_rating_book_in_list книги жанров без возрастного рейтинга попадают в список для детей
+
 test_get_books_for_children_genre_with_age_rating_book_not_in_list книги жанров с возрастным рейтингом не попадают в список для детей
 
 test_add_book_in_favorites_book_from_collection_added книга из коллекции добавляется в избранное
